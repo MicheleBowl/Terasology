@@ -2622,7 +2622,7 @@ public final class NetData {
           int index, org.terasology.protobuf.EntityData.ChunkStore value) {
         if (chunkInfoBuilder_ == null) {
           if (value == null) {
-            throw new NullPointerException();
+            throw new ;
           }
           ensureChunkInfoIsMutable();
           chunkInfo_.set(index, value);
